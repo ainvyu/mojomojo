@@ -21,15 +21,15 @@ msgstr "(비공식)"
 
 #: root/base/user/profile.tt:16 root/base/user/profile.tt:19 root/base/user/profile.tt:22 root/base/user/profile.tt:9
 msgid "(Unknown)"
-msgstr "(알려지지않음)"
+msgstr "(알려지지 않음)"
 
 #: root/base/edithelp.tt:60
 msgid "**bold** or __bold__"
-msgstr "**볼드** 또는  __볼드__"
+msgstr "**볼드** 또는 __볼드__"
 
 #: root/base/edithelp.tt:59
 msgid "*italic* or _italic_"
-msgstr "*이탤릭* 또는  _이탤릭_"
+msgstr "*이탤릭* 또는 _이탤릭_"
 
 #: root/base/edithelp.tt:154
 msgid "3 or more dashes or asterisks"
@@ -69,7 +69,7 @@ msgstr "추가"
 
 #: root/base/page/addtags.tt:1
 msgid "Add tag"
-msgstr "태그추가"
+msgstr "태그 추가"
 
 #: root/base/page/view.tt:25
 msgid "Added"
@@ -100,11 +100,11 @@ msgstr "All pages tagged with %1 listed alphabetically"
 
 #: root/base/tag/cloud.tt:9
 msgid "All tags"
-msgstr ""
+msgstr "모든 태그"
 
 #: root/base/navbar.tt:40 root/base/navbar.tt:45
 msgid "All tags in this path"
-msgstr ""
+msgstr "이 경로의 모든 태그"
 
 #: root/base/navbar.tt:43
 msgid "All tags on photos"
@@ -124,7 +124,7 @@ msgstr ""
 
 #: lib/MojoMojo/Controller/User.pm:255
 msgid "An error occourred. Sorry."
-msgstr ""
+msgstr "죄송합니다. 오류가 발생하였습니다."
 
 #: root/base/edithelp.tt:131
 msgid "An h2 tag in a blockquote"
@@ -148,7 +148,7 @@ msgstr "이름없는 유저(공백을 넣으면 무효가 됩니다)"
 
 #: root/base/gallery/photo_info.tt:8
 msgid "Aperture"
-msgstr ""
+msgstr "조리개"
 
 #: lib/MojoMojo/Controller/Attachment.pm:107
 msgid "Attachment not found."
@@ -172,7 +172,7 @@ msgstr "페이지로 돌아가기"
 
 #: root/base/page/list.tt:27
 msgid "Backlinks"
-msgstr "링크"
+msgstr "이전 링크"
 
 #:
 msgid "Birth Date"
@@ -180,7 +180,7 @@ msgstr "생일"
 
 #: root/base/edithelp.tt:127
 msgid "Block quotes"
-msgstr "블록인용"
+msgstr "블록 인용"
 
 #: root/base/edithelp.tt:130
 msgid "Blockquotes can be nested"
@@ -196,11 +196,11 @@ msgstr ""
 
 #: root/base/edithelp.tt:25
 msgid "Bulleted list"
-msgstr ""
+msgstr "글머리 기호 목록"
 
 #: root/base/gallery/photo_info.tt:5
 msgid "Camera"
-msgstr ""
+msgstr "카메라"
 
 #: lib/MojoMojo/Controller/Attachment.pm:169
 msgid "Can only make inline version of photos"
@@ -224,11 +224,11 @@ msgstr ""
 
 #: root/base/navbar.tt:18 root/base/page/bottomnav.tt:13
 msgid "Change page content"
-msgstr ""
+msgstr "페이지 컨텐츠 변경"
 
 #: root/base/user/prefs.tt:6
 msgid "Change password"
-msgstr "패스워드 변경"
+msgstr "비밀번호 변경"
 
 #: root/base/user/profile.tt:46
 msgid "Change profile content"
@@ -236,7 +236,7 @@ msgstr ""
 
 #: root/base/page/bottomnav.tt:16
 msgid "Change site settings"
-msgstr ""
+msgstr "사이트 설정 변경"
 
 #: root/base/page/info.tt:18
 msgid "Children"
@@ -244,7 +244,7 @@ msgstr ""
 
 #: root/base/page/attachments.tt:14
 msgid "Choose attachments"
-msgstr ""
+msgstr "첨부파일 선택"
 
 #: root/base/edithelp.tt:121
 msgid "Circle"
@@ -252,7 +252,7 @@ msgstr ""
 
 #: root/base/gallery/photo.tt:32
 msgid "Click for original version"
-msgstr ""
+msgstr "누르면 원본 보기"
 
 #: root/base/page/suggest.tt:21
 msgid "Click on any non-existent page to create it. Any missing pages above it will be created automatically."
@@ -264,7 +264,7 @@ msgstr ""
 
 #: root/base/comment.tt:5
 msgid "Comment"
-msgstr ""
+msgstr "코멘트"
 
 #: root/forms/comment/comment.yml:17
 msgid ""
@@ -282,7 +282,7 @@ msgstr ""
 
 #: root/base/page/info.tt:15
 msgid "Content size"
-msgstr ""
+msgstr "컨텐츠 크기"
 
 #: lib/MojoMojo/Controller/User.pm:52 root/base/comment/login.tt:6
 msgid "Could not authenticate that login."
@@ -295,19 +295,19 @@ msgstr "Could not create attachment from %1"
 
 #:
 msgid "Create"
-msgstr "작성"
+msgstr "생성"
 
 #: root/base/admin/create_role.tt:9
 msgid "Create Role"
-msgstr ""
+msgstr "역할 생성"
 
 #: root/base/admin/role.tt:11 root/base/admin/role.tt:30
 msgid "Create a new role"
-msgstr ""
+msgstr "새 역할을 생성"
 
 #: root/base/page/edit.tt:56
 msgid "Create and View"
-msgstr ""
+msgstr "작성하고 확인"
 
 #: root/base/edithelp.tt:155
 msgid "Creates"
@@ -319,11 +319,11 @@ msgstr ""
 
 #: root/base/page/bottomnav.tt:38
 msgid "Current Revision"
-msgstr "현재 리비젼現"
+msgstr "현재 리비젼"
 
 #:
 msgid "Current password"
-msgstr "현재 패스워드　"
+msgstr "현재 비밀번호"
 
 #: root/forms/user/password.yml:29
 msgid ""
@@ -362,11 +362,11 @@ msgstr ""
 
 #: root/base/user/validate.tt:19
 msgid "Didn't receive an email?"
-msgstr "메일을 받지 못했을 경우"
+msgstr "메일을 받지 못했습니까?"
 
 #: root/base/navbar.tt:56 root/base/navbar.tt:58
 msgid "Download a zip with all the pages in this wiki"
-msgstr "Wiki 내용을 ZIP형식으로 다운로드"
+msgstr "Wiki의 모든 페이지를 ZIP형식으로 다운로드"
 
 #: lib/MojoMojo/Controller/PageAdmin.pm:135
 msgid "END OF CONFLICT"
@@ -415,7 +415,7 @@ msgstr "메일 주소 확인"
 
 #: lib/MojoMojo/Controller/User.pm:188
 msgid "Emailed you your new password."
-msgstr ""
+msgstr "새로운 패스워드를 메일로 보냅니다."
 
 #: root/base/toolbar.tt:37 root/base/toolbar.tt:7
 msgid "Enum list"
@@ -423,11 +423,11 @@ msgstr ""
 
 #: lib/MojoMojo/Controller/User.pm:191
 msgid "Error occurred while emailing you your new password."
-msgstr ""
+msgstr "당신의 이메일로 새로운 비밀번호를 발송중 오류가 발생하였습니다."
 
 #: root/base/gallery/photo_info.tt:1
 msgid "Exif Data"
-msgstr ""
+msgstr "EXIF 데이터"
 
 #: root/base/page/suggest.tt:4
 msgid "Existent Pages"
@@ -435,7 +435,7 @@ msgstr ""
 
 #: root/base/export.tt:1 root/base/navbar.tt:56 root/base/navbar.tt:58
 msgid "Export"
-msgstr "보내기"
+msgstr "내보내기"
 
 #: root/base/toolbar.tt:27 root/base/toolbar.tt:49
 msgid "External Link"
@@ -463,7 +463,7 @@ msgstr ""
 
 #: root/base/page/bottomnav.tt:50
 msgid "Format page for printing"
-msgstr ""
+msgstr "인쇄형식 페이지"
 
 #: root/base/page/bottomnav.tt:28 root/base/page/bottomnav.tt:32
 msgid "Forward in time"
@@ -479,7 +479,7 @@ msgstr "전체글"
 
 #: root/base/navbar.tt:72
 msgid "Gallery"
-msgstr ""
+msgstr "갤러리"
 
 #: root/base/user/profile.tt:18
 msgid "Gender"
@@ -499,11 +499,11 @@ msgstr ""
 
 #: root/base/navbar.tt:21
 msgid "Go to home page"
-msgstr ""
+msgstr "홈으로 이동"
 
 #: root/base/edithelp.tt:149
 msgid "Going back to normal formatting"
-msgstr ""
+msgstr "기본 서식으로 돌아감"
 
 #: root/base/export.tt:6
 msgid "HTML"
@@ -511,7 +511,7 @@ msgstr ""
 
 #: root/base/mail/reset_password.tt:8
 msgid "Have a nice day"
-msgstr ""
+msgstr "좋은 하루 되세요"
 
 #: root/base/edithelp.tt:71 root/base/edithelp.tt:72 root/base/edithelp.tt:75 root/base/edithelp.tt:76
 msgid "Header 1"
@@ -545,7 +545,7 @@ msgstr ""
 #. (user.name)
 #: root/base/mail/validate.tt:1
 msgid "Hi. This is a mail to validate your email address, x. To confirm, please click the url below:"
-msgstr "Hi. This is a mail to validate your email address, %1. To confirm, please click the url below:"
+msgstr "안녕하세요. 이 메일은 이메일 주소 인증용 메일입니다., %1. 확인하려면, 아래 URL을 클릭하세요:"
 
 #: root/base/page/bottomnav.tt:46
 msgid "Hide changes"
@@ -553,7 +553,7 @@ msgstr "변경부분을 표시하지 않음"
 
 #: root/base/page/suggest.tt:8 root/base/page/wrapper.tt:7 root/base/sidebar.tt:21
 msgid "Home"
-msgstr ""
+msgstr "홈"
 
 #: root/base/edithelp.tt:10 root/base/edithelp.tt:52
 msgid "HomePage, ThreeWordsTogether, [[C++]], [[Lets play again!]] ((easy to type))"
@@ -565,11 +565,11 @@ msgstr ""
 
 #: root/base/gallery.tt:13
 msgid "Hover over an image to get more info."
-msgstr ""
+msgstr "이미지 위에 마우스 커서를 올리면 더 많은 정보를 얻을 수 있습니다."
 
 #: root/base/edithelp.tt:12 root/base/edithelp.tt:54
 msgid "IBM, School"
-msgstr ""
+msgstr "IBM, 학교"
 
 #: root/base/admin/role.tt:16
 msgid "ID"
@@ -594,11 +594,11 @@ msgstr "확인이 되지 않는 경우는 %1"
 
 #: root/base/edithelp.tt:38
 msgid "Image"
-msgstr ""
+msgstr "그림"
 
 #: root/base/edithelp.tt:64
 msgid "Images"
-msgstr ""
+msgstr "그림들"
 
 #: root/base/user/profile.tt:21
 msgid "Industry"
@@ -606,11 +606,11 @@ msgstr "직업"
 
 #: root/base/page/permissions.tt:5
 msgid "Inherited permissions"
-msgstr ""
+msgstr "상속된 권한들"
 
 #: root/base/edithelp.tt:66
 msgid "Inline"
-msgstr ""
+msgstr "인라인 보기"
 
 #: root/base/edithelp.tt:62
 msgid "Inline Links"
@@ -626,7 +626,7 @@ msgstr ""
 
 #: lib/MojoMojo/Controller/User.pm:154
 msgid "Invalid password."
-msgstr ""
+msgstr "잘못된 비밀번호"
 
 #: root/base/toolbar.tt:21 root/base/toolbar.tt:43
 msgid "Italic"
@@ -654,7 +654,7 @@ msgstr ""
 
 #: root/base/page/edit.tt:66
 msgid "Leave second blank if you do not want a password"
-msgstr ""
+msgstr "비밀번호가 필요하지 않으면 두번째 필드를 빈칸으로 두세요."
 
 #: root/base/toolbar.tt:11
 msgid "Left-justified paragraph"
@@ -662,11 +662,11 @@ msgstr ""
 
 #: root/base/gallery/photo_info.tt:6
 msgid "Lens"
-msgstr ""
+msgstr "렌즈"
 
 #: root/base/edithelp.tt:62 root/base/edithelp.tt:63
 msgid "Link Title"
-msgstr ""
+msgstr "링크 제목"
 
 #: root/base/page/bottomnav.tt:56
 msgid "Linked from"
@@ -791,7 +791,7 @@ msgstr ""
 
 #: root/base/toolbar.tt:30 root/base/toolbar.tt:52
 msgid "Mark some text to apply the toolbar actions to that text"
-msgstr "툴바에 있는 액션을 사용하기 위해서는 대상의 문자를 하이라이트해주세요"
+msgstr "툴바에 있는 액션을 사용하기 위해서는 대상의 문자를 하이라이트 해주세요"
 
 #: root/base/edithelp.tt:45
 msgid "Markdown formatting tips"
@@ -869,7 +869,7 @@ msgstr "유저 등록 허가"
 
 #: root/base/page/search.tt:54 root/base/page/search_inline.tt:45
 msgid "Next"
-msgstr ""
+msgstr "다음"
 
 #: root/base/admin/role.tt:22
 msgid "No"
@@ -899,7 +899,7 @@ msgstr "최근의 변경은 없습니다"
 
 #: root/base/page/search.tt:24 root/base/page/search_inline.tt:15
 msgid "No results found"
-msgstr ""
+msgstr "결과를 찾지 못했습니다"
 
 #: root/base/admin/role.tt:29
 msgid "No roles created yet."
@@ -920,7 +920,7 @@ msgstr ""
 
 #: root/base/edithelp.tt:145
 msgid "Normal Paragraph"
-msgstr ""
+msgstr "기본 단락"
 
 #: root/base/page/list.tt:43
 msgid "Not found. Click to create this page."
@@ -973,11 +973,11 @@ msgstr "이 페이지로 링크된 페이지"
 
 #: root/base/navbar.tt:66 root/base/navbar.tt:68 root/base/page/recent.tt:38
 msgid "Page"
-msgstr ""
+msgstr "페이지"
 
 #: root/base/page/bottomnav.tt:19 root/base/page/bottomnav.tt:21
 msgid "Page Info"
-msgstr "페이지정보"
+msgstr "페이지 정보"
 
 #. (page.path)
 #: root/base/page/info.tt:9
@@ -1010,15 +1010,15 @@ msgstr "어디에도 링크되지 않은 페이지"
 
 #: root/base/user/login.tt:19
 msgid "Password"
-msgstr "패스워드"
+msgstr "비밀번호"
 
 #:
 msgid "Password did not match"
-msgstr "패스워드가 일치하지 않습니다"
+msgstr "비밀번호가 일치하지 않습니다"
 
 #:
 msgid "Password must be between 4 and 14 chars"
-msgstr "패스워드는 4~14자로 정해주세요."
+msgstr "비밀번호는 4~14자로 정해주세요."
 
 #. ($page->name)
 #: lib/MojoMojo/Controller/Page.pm:71
@@ -1040,7 +1040,7 @@ msgstr "이 페이지에 대한 권한"
 
 #: root/base/navbar.tt:74
 msgid "Photo Album"
-msgstr ""
+msgstr "사진 앨범"
 
 #: root/base/page/info.tt:33
 msgid "Photos"
@@ -1052,11 +1052,11 @@ msgstr "그림"
 
 #: lib/MojoMojo/Controller/User.pm:33
 msgid "Please enter username and password"
-msgstr "유저이름과 패스워드를 입력해주세요"
+msgstr "유저이름과 비밀번호를 입력해주세요"
 
 #: lib/MojoMojo/Controller/User.pm:214
 msgid "Please fill in the following information to register. All fields are mandatory."
-msgstr ""
+msgstr "가입 정보를 기입해주세요. 모든 필드를 반드시 기입해야합니다."
 
 #: root/base/page/attachments.tt:15
 msgid "Please select a file to attach to this page. To upload multiple files, put them in a zip."
@@ -1100,7 +1100,7 @@ msgstr "앞"
 
 #: root/base/page/bottomnav.tt:50
 msgid "Print"
-msgstr "프린트"
+msgstr "인쇄"
 
 #: root/base/navbar.tt:81 root/base/navbar.tt:83
 msgid "Profile"
@@ -1137,11 +1137,11 @@ msgstr "Recent pages in %1 tagged with %2"
 
 #: root/base/user/recover_pass.tt:3
 msgid "Recover Password"
-msgstr "패스워드를 재발행"
+msgstr "비밀번호 복구"
 
 #: root/base/user/login.tt:13 root/base/user/recover_pass.tt:13
 msgid "Recover password"
-msgstr "패스워드를 재발행"
+msgstr "비밀번호 복구"
 
 #: root/base/edithelp.tt:123
 msgid "Rectangle"
@@ -1149,7 +1149,7 @@ msgstr ""
 
 #: root/base/navbar.tt:29
 msgid "Register"
-msgstr ""
+msgstr "등록"
 
 #: root/base/user/login.tt:11
 msgid "Register new account"
@@ -1228,11 +1228,11 @@ msgstr ""
 
 #: root/base/admin/role_form.tt:5
 msgid "Role Name:"
-msgstr ""
+msgstr "역할 이름"
 
 #: root/base/admin/role.tt:9
 msgid "Roles"
-msgstr ""
+msgstr "역할"
 
 #. (page.content_version)
 #: root/base/page/view.tt:7
@@ -1274,7 +1274,7 @@ msgstr ""
 
 #: root/base/page/bottomnav.tt:43
 msgid "See changes"
-msgstr "변경부분 보기"
+msgstr "변경사항 보기"
 
 #: root/base/page/bottomnav.tt:28 root/base/page/bottomnav.tt:32
 msgid "See next revision"
@@ -1298,7 +1298,7 @@ msgstr ""
 
 #: root/base/page/bottomnav.tt:43
 msgid "Show differences from previous version"
-msgstr "이전 버젼과의 차이를 보기"
+msgstr "이전 버젼과의 차이 보기"
 
 #: root/base/page/bottomnav.tt:46
 msgid "Show normal page"
@@ -1338,7 +1338,7 @@ msgstr ""
 
 #:
 msgid "Site Admins (In addition to you)"
-msgstr "사이트관리자（admin이외）"
+msgstr "사이트관리자（admin이외)"
 
 #: root/base/admin/settings.tt:5
 msgid "Site Configuration"
@@ -1398,11 +1398,11 @@ msgstr "관련페이지"
 
 #: root/base/navbar.tt:52 root/base/navbar.tt:54
 msgid "Subscribe to changes by RSS"
-msgstr ""
+msgstr "RSS로 변경사항을 구독"
 
 #: root/base/page/bottomnav.tt:51
 msgid "Subscribe to page changes"
-msgstr ""
+msgstr "페이지 변경사항을 구독"
 
 #: root/base/page/attachments.tt:5
 msgid "Switch to flash uploader"
@@ -1501,11 +1501,11 @@ msgstr ""
 
 #: lib/MojoMojo/Controller/Admin.pm:95
 msgid "Updated successfully."
-msgstr "성공적으로 업데이트되었습니다"
+msgstr "성공적으로 업데이트 되었습니다"
 
 #: root/base/page/attachments.tt:11
 msgid "Upload"
-msgstr ""
+msgstr "업로드"
 
 #: root/base/page/permissions.tt:52
 msgid "Use inherited permissions"
@@ -1546,7 +1546,7 @@ msgstr "확인"
 
 #: root/base/page/recent.tt:55
 msgid "View Diff"
-msgstr "차이를 보기"
+msgstr "변경부분 보기"
 
 #: root/base/gallery.tt:23
 msgid "View as files"
@@ -1627,12 +1627,12 @@ msgstr "잘못입력하셨습니다. 바르게 입력해주세요."
 
 #: lib/MojoMojo/Controller/User.pm:159
 msgid "Your password has been updated"
-msgstr "패스워드가 바뀌었습니다."
+msgstr "비밀번호가 바뀌었습니다."
 
 #. (c.config.name)
 #: root/base/mail/reset_password.tt:3
 msgid "Your password on x has been reset. This is your new password:"
-msgstr "당신의 패스워드 %1 가 리셋되었습니다. 새로운 패스워드:"
+msgstr "당신의 비밀번호 %1 가 리셋되었습니다. 새로운 비밀번호:"
 
 #. ($c->pref('name')
 #: lib/MojoMojo/Controller/User.pm:247
@@ -1645,7 +1645,7 @@ msgstr ""
 
 #: root/base/gallery/footer.tt:7
 msgid "add"
-msgstr ""
+msgstr "추가"
 
 #: root/base/comment.tt:23
 msgid "add a comment"
@@ -1687,7 +1687,7 @@ msgstr ""
 
 #: root/base/edithelp.tt:60 root/base/toolbar.tt:18 root/base/toolbar.tt:40
 msgid "bold"
-msgstr ""
+msgstr "굵게"
 
 #: root/base/page/search.tt:35 root/base/page/search_inline.tt:27 root/base/page/view.tt:32 root/base/tag/recent.tt:26
 msgid "by"
@@ -1707,15 +1707,15 @@ msgstr ""
 
 #: root/base/page/info.tt:16
 msgid "chars"
-msgstr ""
+msgstr "문자"
 
 #: root/base/edithelp.tt:138
 msgid "code"
-msgstr ""
+msgstr "코드"
 
 #: root/base/comment.tt:13
 msgid "comment"
-msgstr ""
+msgstr "코멘트"
 
 #: root/base/comment.tt:2
 msgid "comments disabled for preview"
@@ -1835,7 +1835,7 @@ msgstr ""
 
 #: root/base/edithelp.tt:33
 msgid "linkname"
-msgstr ""
+msgstr "링크이름"
 
 #: root/base/comment/login.tt:12
 msgid "log in"
@@ -1859,7 +1859,7 @@ msgstr "이름"
 
 #: root/base/gallery/photo.tt:35
 msgid "no description"
-msgstr ""
+msgstr "설명없음"
 
 #: root/base/admin/user.tt:19
 msgid "no email address"
@@ -1871,7 +1871,7 @@ msgstr ""
 
 #: root/base/gallery/photo_info.tt:4 root/base/gallery/photo_info.tt:5 root/base/gallery/photo_info.tt:6 root/base/gallery/photo_info.tt:8
 msgid "not specified"
-msgstr ""
+msgstr "지정 안됨"
 
 #: root/base/page/search.tt:36 root/base/page/search_inline.tt:28
 msgid "on"
@@ -1887,15 +1887,15 @@ msgstr "페이지"
 
 #: root/base/comment/login.tt:10
 msgid "password"
-msgstr "패스워드"
+msgstr "비밀번호"
 
 #: root/base/gallery/cloud.tt:2
 msgid "photo tags"
-msgstr ""
+msgstr "사진 태그"
 
 #: root/base/page/attachments.tt:16
 msgid "plain uploader"
-msgstr "심플 다운로더"
+msgstr "심플 업로더"
 
 #: root/base/gallery/tags.tt:17
 msgid "popular tags"
@@ -1924,11 +1924,11 @@ msgstr "referenced by %1"
 
 #: root/base/comment/login.tt:4
 msgid "register"
-msgstr ""
+msgstr "등록"
 
 #: root/base/admin/role_form.tt:31
 msgid "remove"
-msgstr "삭제"
+msgstr "제거"
 
 #: root/base/page/bottomnav.tt:25
 msgid "revision"
@@ -1977,7 +1977,7 @@ msgstr ""
 "h1. MojoMojo에 오신 것을 환경합니다!\n"
 "\n"
 "이것이 보인다는 것은 무사히 MojoMojo의 인스톨이 끝났다는 것을 의미합니다.\n"
-"MojoMojo를 사용하기위해서는 우선 유저이름 「admin」 과 패스워드 「admin」 을 사용해서\n"
+"MojoMojo를 사용하기위해서는 우선 유저이름 「admin」 과 비밀번호 「admin」 을 사용해서\n"
 "관리자로 로그인해주세요. 로그인하면 MojoMojo 의 관리가 가능해집니다.\n"
 "\n"
 "로그인을 했다면 처음으로 [[New Page]]에서 페이지를 새롭게 만들거나, 이 페이지의 위에 있는\n"
