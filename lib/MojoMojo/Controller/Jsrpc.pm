@@ -3,6 +3,7 @@ package MojoMojo::Controller::Jsrpc;
 use strict;
 use parent 'Catalyst::Controller';
 use HTML::Entities;
+use Encode;
 
 =head1 NAME
 
@@ -143,13 +144,15 @@ Remove a tag from a page. Returns a list of yours and popular tags.
 
 sub untag : Local Args(1) {
     my ( $self, $c, $tagname ) = @_;
+
     my $page = $c->stash->{page};
     die "Page " . $page . " not found" unless ref $page;
     my $tag = $c->model("DBIC::Tag")->search(
         page   => $page->id,
         person => $c->user->obj->id,
-        tag    => $tagname
+        tag    => decode_utf8($tagname)
     )->next();
+
     $tag->delete() if $tag;
     $c->req->args( [$tagname] );
     $c->forward('/page/inline_tags');

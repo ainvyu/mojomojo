@@ -3,6 +3,7 @@ package MojoMojo::Controller::Tag;
 use strict;
 use parent 'Catalyst::Controller';
 use HTML::TagCloud;
+use Encode;
 
 =head1 NAME
 
@@ -51,10 +52,11 @@ argument. It will list recent pages tagged with the given tag.
 
 sub recent : Private {
     my ( $self, $c, $tag ) = @_;
+    my $decoded_tag = decode_utf8($tag);
     $c->stash->{template} = 'page/recent.tt';
     return unless $tag;
-    $c->stash->{activetag} = $tag;
-    $c->stash->{pages}     = [ $c->stash->{page}->tagged_descendants_by_date($tag) ];
+    $c->stash->{activetag} = $decoded_tag;
+    $c->stash->{pages}     = [ $c->stash->{page}->tagged_descendants_by_date($decoded_tag) ];
 
 }
 
