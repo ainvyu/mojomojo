@@ -197,7 +197,7 @@ msgstr ""
 
 #: root/static/js/edit.js:159
 msgid "bigger"
-msgstr ""
+msgstr "크게"
 
 #: root/static/js/edit.js:156 root/static/js/edit.js:186
 msgid "bold"
@@ -257,7 +257,7 @@ msgstr "최대화"
 
 #: root/static/js/wiki.js:480
 msgid "maximize width"
-msgstr ""
+msgstr "최대 길이"
 
 #: root/static/js/edit.js:151 root/static/js/edit.js:184
 msgid "quote"
