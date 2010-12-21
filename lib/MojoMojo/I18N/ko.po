@@ -853,7 +853,7 @@ msgstr ""
 
 #: root/base/admin/role.tt:16 root/base/user/profile.tt:15 root/forms/user/editprofile.yml:8 root/forms/user/prefs.yml:17 root/forms/user/register.yml:42
 msgid "Name"
-msgstr "名前"
+msgstr "이름"
 
 #: root/base/user/profile.tt:16
 msgid "Name missing"
