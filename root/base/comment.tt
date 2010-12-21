@@ -7,17 +7,16 @@
             [% WHILE ( comment = comments.next ) %]
 <div class="comment">
     <dl>
-        <dt>[% loc('poster') %]</dt>
-        <dd><a href="[%comment.poster.link%]">[%comment.poster.name%]</a></dd>
-        <dt>[% loc('posted') %]</dt>
-        <dd>[% comment.posted.ymd %] [% comment.posted.hms %]</dd>
-        <dt>
-            [% loc('comment') %]:
-            [% IF user.can_edit(page.path) %]
+        <dt><a href="[%comment.poster.link%]">[%comment.poster.name%]</a></dt>
+        <dd>
+			[% comment.posted.ymd %] [% comment.posted.hms %] 
+			[% IF user.can_edit(page.path) %]
             [<b class="remove"><a href="[% c.uri_for('comment','remove',comment.id) %]">&times;</a></b>]
             [% END %]
-        </dt>
-        <dd>[% comment.formatted %]</dd>
+		</dd>
+		<dd>
+			[% comment.body %]
+		</dd>
     </dl>
 </div>
             [% END # WHILE %]

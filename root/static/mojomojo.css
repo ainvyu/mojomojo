@@ -626,7 +626,7 @@ dd {
 }
 
 div#comments div.comment dd {
-    margin-left: 120px;
+    margin-left: 0px;
 }
 
 /* Common Forms Rules */
