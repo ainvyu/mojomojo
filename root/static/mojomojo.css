@@ -625,8 +625,61 @@ dd {
     margin-left: 80px;
 }
 
+.commentbox {
+	padding: 5px; 
+	color: #666666; 
+	border: 1px solid #e0e1db; 
+	margin-top: .5em;
+}
+
+.commentbox .commentitem { 
+	background-color:#FFFFFF; 
+	padding:.6em .8em .6em .6em; 
+	line-height:1.25em; clear:both; 
+	border-bottom:1px dotted #EEEEEE; 
+	list-style:none;
+}
+
+.commentbox p  { 
+	display:inline; 
+	margin-bottom:1em;
+}
+
+.commentbox .author { 
+	float:left; padding:0 .3em 0 0; font-size:.9em; color:#3074a5; margin:0 .3em .5em 0;
+}
+
+.commentbox .author a { 
+	color:#3074a5; margin-right:.3em; text-decoration:none; 
+}
+
+.commentbox .voted { 
+	float:left; font-size:.9em; color:#AAAAAA; margin:0 .3em .5em 1em;
+}
+
+.commentbox .date { 
+	float:right; font:.8em Tahoma; margin:.3em 0 .5em 0;
+}
+
+.commentbox .commentcontent { 
+	clear:left; 
+}
+.commentbox .commentcontent p { 
+	display:block; 
+}
+.commentbox .comment { 
+	background-color:#F4F4F4; border-bottom:1px dotted #DDDDDD;
+}
+.commentbox .commentindent {
+	background:url(../images/common/iconReplyArrow.gif) no-repeat .0em .3em; padding-left:1.3em;
+}
+
 div#comments div.comment dd {
     margin-left: 0px;
+}
+
+div#comments div.comment dt {
+    
 }
 
 /* Common Forms Rules */
