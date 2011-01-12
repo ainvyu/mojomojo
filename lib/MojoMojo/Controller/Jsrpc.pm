@@ -119,10 +119,10 @@ sub tag : Local Args(1) {
             $tag
             && !$c->model("DBIC::Tag")->search(
                 {
-				    page   => $page->id,
+                    page   => $page->id,
                     person => $c->req->{user_id},
                     tag    => $tagname,
-				}
+                }
             )->next()
             )
         {
