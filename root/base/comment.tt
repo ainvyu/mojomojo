@@ -10,7 +10,7 @@
 		<dl>
 			<div class="author"><a href="[%comment.poster.link%]">[%comment.poster.name%]</a></div>
 			<div class="date">
-				<strong>[% comment.posted.ymd %]</strong> [% comment.posted.hms %]
+				<strong>[% c.tz(comment.posted).ymd %]</strong> [% c.tz(comment.posted).hms %]
 				[% IF user.can_edit(page.path) %]
 				[<b class="remove"><a href="[% c.uri_for('comment','remove',comment.id) %]">&times;</a></b>]
 				[% END %]

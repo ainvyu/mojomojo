@@ -20,6 +20,7 @@ use Catalyst qw/
 use Storable;
 use Digest::MD5;
 use Data::Dumper;
+use DateTime;
 use MRO::Compat;
 use DBIx::Class::ResultClass::HashRefInflator;
 use Encode ();
@@ -292,6 +293,20 @@ sub fixw {
     return $w;
 }
 
+=head2 tz
+
+Convert timezone
+
+=cut
+
+sub tz {
+    my ( $c, $dt ) = @_;
+    if ( $c->user && $c->user->timezone ) {
+        eval { $dt->set_time_zone( $c->user->timezone ) };
+    }
+    return $dt;
+}
+
 =head2 prepare_action
 
 Provide "No DB" message when one needs to spawn the db (script/mojomojo_spawn.pl).
@@ -401,9 +416,9 @@ C</static/> has been remapped to C</.static/>.
 
 sub uri_for_static {
     my ( $self, $asset ) = @_;
-     return 
-        ( defined($self->config->{static_path} ) 
-     ?  $self->config->{static_path} . $asset 
+     return
+        ( defined($self->config->{static_path} )
+     ?  $self->config->{static_path} . $asset
      :  $self->uri_for('/.static', $asset) );
 }
 =head2 _cleanup_path
@@ -439,7 +454,7 @@ and ending with the complete path:
     /path/to/a
     /path/to/a/page
 
-=cut    
+=cut
 
 sub _expand_path_elements {
     my ( $c, $path ) = @_;
@@ -476,9 +491,9 @@ There is a base set of rules which may be defined in the application
 config. These are:
 
     $c->config->{permissions}{view_allowed} = 1; # or 0
-    
+
 Similar entries exist for C<delete>, C<edit>, C<create> and C<attachment>.
-If these config variables are not defined, the default is to allow anyone 
+If these config variables are not defined, the default is to allow anyone
 to do anything.
 
 =item 2.
@@ -556,7 +571,7 @@ sub get_permissions_data {
         # when we try to dereference it further down.  The error we're avoiding is:
         # Can't use string ("") as a HASH ref while "strict refs"
         $permdata = {};
-        
+
         ## Either the data hasn't been loaded, or it's expired since we used it last,
         ## so we need to reload it.
         my $rs =
@@ -733,7 +748,7 @@ sub check_permissions {
             }
         }
     }
-  
+
     my %perms = map { $_ => $rulescomparison{$_}{'allowed'} } keys %rulescomparison;
 
     return \%perms;
